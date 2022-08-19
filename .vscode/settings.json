@@ -3,5 +3,11 @@
         "enable": true,
         "baseUri": "/api",
         "proxyUri": "http://localhost:7071/api"
-    }
+    },
+    "azureFunctions.projectSubpath": "azure-function\\python",
+    "azureFunctions.deploySubpath": "azure-function\\python",
+    "azureFunctions.scmDoBuildDuringDeployment": true,
+    "azureFunctions.projectLanguage": "Python",
+    "azureFunctions.projectRuntime": "~4",
+    "debug.internalConsoleOptions": "neverOpen"
 }
